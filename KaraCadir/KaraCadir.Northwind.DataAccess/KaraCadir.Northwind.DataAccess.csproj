@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\KaraCadir.Core\KaraCadir.Core.csproj" />
     <ProjectReference Include="..\Karacadir.Northwind.Entities\Karacadir.Northwind.Entities.csproj" />
   </ItemGroup>
