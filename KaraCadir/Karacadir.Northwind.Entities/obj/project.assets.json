@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "KaraCadir.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/KaraCadir.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KaraCadir.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "KaraCadir.Core/1.0.0": {
+      "type": "project",
+      "path": "../KaraCadir.Core/KaraCadir.Core.csproj",
+      "msbuildProject": "../KaraCadir.Core/KaraCadir.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "KaraCadir.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\hmalk\\.nuget\\packages\\": {},
@@ -36,7 +55,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\WORK\\KaraCadir\\KaraCadir\\KaraCadir.Core\\KaraCadir.Core.csproj": {
+              "projectPath": "C:\\WORK\\KaraCadir\\KaraCadir\\KaraCadir.Core\\KaraCadir.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
