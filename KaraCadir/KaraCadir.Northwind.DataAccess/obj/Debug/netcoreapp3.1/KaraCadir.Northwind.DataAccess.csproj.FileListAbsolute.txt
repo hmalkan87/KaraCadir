@@ -1,0 +1,5 @@
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\bin\Debug\netcoreapp3.1\KaraCadir.Core.dll
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\bin\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.dll
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.csprojAssemblyReference.cache
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.AssemblyInfoInputs.cache
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.AssemblyInfo.cs
