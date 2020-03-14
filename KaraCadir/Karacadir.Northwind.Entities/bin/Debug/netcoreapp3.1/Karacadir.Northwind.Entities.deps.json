@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "KaraCadir.Core/1.0.0": {
+      "Karacadir.Northwind.Entities/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.2"
+          "KaraCadir.Core": "1.0.0"
         },
         "runtime": {
-          "KaraCadir.Core.dll": {}
+          "Karacadir.Northwind.Entities.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
@@ -180,11 +180,19 @@
       },
       "System.Collections.Immutable/1.7.0": {},
       "System.ComponentModel.Annotations/4.7.0": {},
-      "System.Diagnostics.DiagnosticSource/4.7.0": {}
+      "System.Diagnostics.DiagnosticSource/4.7.0": {},
+      "KaraCadir.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.2"
+        },
+        "runtime": {
+          "KaraCadir.Core.dll": {}
+        }
+      }
     }
   },
   "libraries": {
-    "KaraCadir.Core/1.0.0": {
+    "Karacadir.Northwind.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -321,6 +329,11 @@
       "sha512": "sha512-oJjw3uFuVDJiJNbCD8HB4a2p3NYLdt1fiT5OGsPLw+WTOuG0KpP4OXelMmmVKpClueMsit6xOlzy4wNKQFiBLg==",
       "path": "system.diagnostics.diagnosticsource/4.7.0",
       "hashPath": "system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512"
+    },
+    "KaraCadir.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

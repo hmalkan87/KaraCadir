@@ -3,3 +3,11 @@ C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\bin\Debug\netcoreapp3
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.csprojAssemblyReference.cache
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.AssemblyInfoInputs.cache
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.AssemblyInfo.cs
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\bin\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.deps.json
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\bin\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.dll
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\bin\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.pdb
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\bin\Debug\netcoreapp3.1\KaraCadir.Core.pdb
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\bin\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.pdb
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.csproj.CopyComplete
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.dll
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.pdb

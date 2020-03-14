@@ -1,5 +1,7 @@
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Core\bin\Debug\netcoreapp3.1\KaraCadir.Core.deps.json
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Core\bin\Debug\netcoreapp3.1\KaraCadir.Core.dll
-C:\WORK\KaraCadir\KaraCadir\KaraCadir.Core\obj\Debug\netcoreapp3.1\KaraCadir.Core.csprojAssemblyReference.cache
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Core\obj\Debug\netcoreapp3.1\KaraCadir.Core.AssemblyInfoInputs.cache
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Core\obj\Debug\netcoreapp3.1\KaraCadir.Core.AssemblyInfo.cs
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Core\bin\Debug\netcoreapp3.1\KaraCadir.Core.pdb
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Core\obj\Debug\netcoreapp3.1\KaraCadir.Core.dll
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Core\obj\Debug\netcoreapp3.1\KaraCadir.Core.pdb

@@ -1,0 +1,11 @@
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\bin\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.deps.json
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\bin\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.dll
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\bin\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.pdb
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\bin\Debug\netcoreapp3.1\KaraCadir.Core.dll
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\bin\Debug\netcoreapp3.1\KaraCadir.Core.pdb
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\obj\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.csprojAssemblyReference.cache
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\obj\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.AssemblyInfoInputs.cache
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\obj\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.AssemblyInfo.cs
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\obj\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.csproj.CopyComplete
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\obj\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.dll
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\obj\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.pdb
