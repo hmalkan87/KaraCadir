@@ -10,7 +10,7 @@ namespace KaraCadir.Northwind.Business.Concrete
     public class CategoryManager : ICategoryService
     {
         private ICategoryDal _categoryDal;
-        
+
         public CategoryManager(ICategoryDal categoryDal)
         {
             _categoryDal = categoryDal;
@@ -33,7 +33,7 @@ namespace KaraCadir.Northwind.Business.Concrete
 
         public void Delete(int categoryId)
         {
-            _categoryDal.Delete(categoryId);
+            _categoryDal.Delete(new Category { CategoryId = categoryId });
         }
     }
 }

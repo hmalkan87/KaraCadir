@@ -1,0 +1,15 @@
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\bin\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.deps.json
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\bin\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.dll
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\bin\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.pdb
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\bin\Debug\netcoreapp3.1\KaraCadir.Core.dll
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\bin\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.dll
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\bin\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.dll
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\bin\Debug\netcoreapp3.1\KaraCadir.Core.pdb
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\bin\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.pdb
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\bin\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.pdb
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.csprojAssemblyReference.cache
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.AssemblyInfoInputs.cache
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.AssemblyInfo.cs
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.csproj.CopyComplete
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.dll
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.pdb
