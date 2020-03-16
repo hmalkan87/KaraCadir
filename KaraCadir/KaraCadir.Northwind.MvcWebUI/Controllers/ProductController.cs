@@ -9,8 +9,13 @@ namespace KaraCadir.Northwind.MvcWebUI.Controllers
 {
     public class ProductController : Controller
     {
-        //private IProductService _productService;
-        
+        private IProductService _productService;
+
+        public ProductController(IProductService productService)
+        {
+            _productService = productService;
+        }
+
         public ActionResult Index()
         {
             return View();
