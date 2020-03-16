@@ -1,4 +1,5 @@
 ﻿using KaraCadir.Northwind.Business.Abstract;
+using KaraCadir.Northwind.MvcWebUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,12 @@ namespace KaraCadir.Northwind.MvcWebUI.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            var products = _productService.GetAll();
+            ProductListViewModel model = new ProductListViewModel
+            {
+                Products = products
+            };
+            return View(model);
         }
     }
 }

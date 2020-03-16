@@ -1,4 +1,4 @@
-﻿
+﻿@model KaraCadir.Northwind.MvcWebUI.Models.ProductListViewModel
 @{
     Layout = null;
 }
@@ -11,6 +11,22 @@
     <title>Index</title>
 </head>
 <body>
-    <div>Hello world</div>
+    <div>
+        <table>
+            <tr>
+                <td>Ürün Adı</td>
+                <td>Fiyatı</td>
+                <td>Stok Adedi</td>
+            </tr>
+            @foreach(var product in Model.Products)
+            {
+                <tr>
+                    <td>@product.ProductName</td>
+                    <td>@product.UnitPrice</td>
+                    <td>@product.UnitsInStock</td>
+                </tr>
+            }
+        </table>
+    </div>
 </body>
 </html>
