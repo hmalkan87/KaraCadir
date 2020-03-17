@@ -86,3 +86,5 @@ C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.MvcWebUI\obj\Debug\netcoreapp3.1
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.MvcWebUI\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.MvcWebUI.Views.pdb
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.MvcWebUI\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.MvcWebUI.csproj.CopyComplete
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\_Layout.cshtml.g.cs
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.MvcWebUI\bin\Debug\netcoreapp3.1\package.json
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs

@@ -3,11 +3,11 @@
     Layout = "~/Views/_Layout.cshtml";
 }
     <div>
-        <table>
+        <table class="table table-responsive">
             <tr>
-                <td>Ürün Adı</td>
-                <td>Fiyatı</td>
-                <td>Stok Adedi</td>
+                <td><b>Ürün Adı</b></td>
+                <td><b>Fiyatı</b></td>
+                <td><b>Stok Adedi</b></td>
             </tr>
             @foreach(var product in Model.Products)
             {
