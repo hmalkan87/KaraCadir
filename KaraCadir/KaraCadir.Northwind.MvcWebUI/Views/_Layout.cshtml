@@ -18,6 +18,12 @@
     @*<link href="css/style.css" rel="stylesheet">*@
 
     <!-- #endregion -->
+    @*<style>
+            div.sticky {
+                position: absolute;
+                top: 0;
+            }
+        </style>*@
 </head>
 <body>
     <div class="row">
@@ -70,11 +76,8 @@
             @RenderBody()
         </div>
     </div>
-    <div class="row ml-auto">
-        <div class="col-md-12">
-            Footer
-        </div>
-    </div>
-
+    <footer class="col-md-12 fixed-bottom bg-light py-1 ">
+        <small>© 2020 Tüm hakları saklıdır.</small>
+    </footer>
 </body>
 </html>

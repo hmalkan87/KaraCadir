@@ -13,6 +13,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fad83206cfebbcb431f299a0f414fe2944ea51ce", @"/Views/Shared/Components/CategoryList/Default.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0e9e4339f78885a571d59f3f5955abd08edcebdf", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_CategoryList_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<KaraCadir.Northwind.MvcWebUI.Models.CategoryListViewModel>
     {
         #pragma warning disable 1998

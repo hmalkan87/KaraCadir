@@ -2,20 +2,24 @@
 @{
     Layout = "~/Views/_Layout.cshtml";
 }
-    <div>
-        <table class="table table-responsive">
+<div>
+    <table class="table table-responsive">
+        <tr>
+            <td><b>Ürün Adı</b></td>
+            <td><b>Fiyatı</b></td>
+            <td><b>Stok Adedi</b></td>
+        </tr>
+        @foreach (var product in Model.Products)
+        {
             <tr>
-                <td><b>Ürün Adı</b></td>
-                <td><b>Fiyatı</b></td>
-                <td><b>Stok Adedi</b></td>
+                <td>@product.ProductName</td>
+                <td>@product.UnitPrice</td>
+                <td>@product.UnitsInStock</td>
             </tr>
-            @foreach(var product in Model.Products)
-            {
-                <tr>
-                    <td>@product.ProductName</td>
-                    <td>@product.UnitPrice</td>
-                    <td>@product.UnitsInStock</td>
-                </tr>
-            }
-        </table>
-    </div>
+        }
+    </table>
+</div>
+
+<div class="col-md-2 mt-4">
+    <product-list-pager current-category="@Model.CurrentCategory" current-page="@Model.CurrentPage" page-count="@Model.PageCount" page-size="@Model.PageSize"></product-list-pager>
+</div>
