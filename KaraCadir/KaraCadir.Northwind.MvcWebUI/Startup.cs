@@ -24,6 +24,8 @@ namespace KaraCadir.Northwind.MvcWebUI
             services.AddScoped<IProductDal, EfProductDal>();
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal, EfCategoryDal>();
+            services.AddSession();
+            services.AddDistributedMemoryCache();
             services.AddMvc();
             //services.AddMvc(options => options.EnableEndpointRouting = false);
             //services.AddOptions();
@@ -45,6 +47,8 @@ namespace KaraCadir.Northwind.MvcWebUI
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {
