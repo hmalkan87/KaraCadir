@@ -15,6 +15,7 @@ namespace KaraCadir.Northwind.Business.Concrete
             if (cartLine != null)
             {
                 cartLine.Quantity++;
+                return;
             }
             cart.CartLines.Add(new CartLine { Product = product, Quantity = 1 });
         }

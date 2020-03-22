@@ -144,3 +144,4 @@ C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.MvcWebUI\bin\Debug\netcoreapp3.1
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.MvcWebUI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.MvcWebUI\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.MvcWebUI.csproj.CoreCompileInputs.cache
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.MvcWebUI\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.MvcWebUI.genruntimeconfig.cache
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CartSummary\Default.cshtml.g.cs

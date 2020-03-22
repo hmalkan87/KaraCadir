@@ -1,0 +1,21 @@
+﻿@model KaraCadir.Northwind.MvcWebUI.Models.CartSummaryViewModel
+
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+        @if (Model.Cart.CartLines.Count != 0)
+        {
+            foreach (var item in Model.Cart.CartLines)
+            {
+                <a class="dropdown-item">@item.Product.ProductName <span class="badge badge-primary">@item.Quantity</span></a>
+            }
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item">@string.Format("{0:0.##}", Model.Cart.Total) ₺</a>
+            <a class="btn btn-sm btn-primary m-3" asp-controller="Cart" asp-action="List">Satın Al</a>
+        }
+        else
+        {
+            <a class="dropdown-item">Sepetinizde ürün yok</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item">@Model.Cart.Total ₺</a>
+        }
+
+    </div>
