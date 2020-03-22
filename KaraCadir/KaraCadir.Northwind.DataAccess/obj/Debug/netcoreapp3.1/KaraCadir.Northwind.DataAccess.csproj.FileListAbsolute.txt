@@ -11,3 +11,4 @@ C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.csproj.CopyComplete
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.dll
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.pdb
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.DataAccess\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.DataAccess.csproj.CoreCompileInputs.cache

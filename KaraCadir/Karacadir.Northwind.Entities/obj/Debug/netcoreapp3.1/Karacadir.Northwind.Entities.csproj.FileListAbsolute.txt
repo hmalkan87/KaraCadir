@@ -9,3 +9,4 @@ C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\obj\Debug\netcoreapp3.1
 C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\obj\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.csproj.CopyComplete
 C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\obj\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.dll
 C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\obj\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.pdb
+C:\WORK\KaraCadir\KaraCadir\Karacadir.Northwind.Entities\obj\Debug\netcoreapp3.1\Karacadir.Northwind.Entities.csproj.CoreCompileInputs.cache

@@ -13,3 +13,4 @@ C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\obj\Debug\netcoreapp3.1
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.csproj.CopyComplete
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.dll
 C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.pdb
+C:\WORK\KaraCadir\KaraCadir\KaraCadir.Northwind.Business\obj\Debug\netcoreapp3.1\KaraCadir.Northwind.Business.csproj.CoreCompileInputs.cache

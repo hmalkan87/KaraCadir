@@ -6,6 +6,7 @@ using KaraCadir.Northwind.Business.Abstract;
 using KaraCadir.Northwind.Business.Concrete;
 using KaraCadir.Northwind.DataAccess.Abstract;
 using KaraCadir.Northwind.DataAccess.Concrete.EntityFramework;
+using KaraCadir.Northwind.MvcWebUI.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -24,6 +25,9 @@ namespace KaraCadir.Northwind.MvcWebUI
             services.AddScoped<IProductDal, EfProductDal>();
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal, EfCategoryDal>();
+            services.AddSingleton<ICartSessionService, CartSessionService>();
+            services.AddSingleton<ICartService, CartManager>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddSession();
             services.AddDistributedMemoryCache();
             services.AddMvc();
