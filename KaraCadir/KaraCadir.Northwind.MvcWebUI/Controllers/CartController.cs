@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using KaraCadir.Northwind.Business.Abstract;
+using KaraCadir.Northwind.MvcWebUI.Models;
 using KaraCadir.Northwind.MvcWebUI.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -34,6 +35,16 @@ namespace KaraCadir.Northwind.MvcWebUI.Controllers
             TempData.Add("message", string.Format($"{productToBeAdded.ProductName} sepetinize eklendi"));
 
             return RedirectToAction("Index", "Product");
+        }
+
+        public ActionResult List()
+        {
+            var cart = _cartSessionService.GetCart();
+            CartSummaryViewModel cartSummaryViewModel = new CartSummaryViewModel
+            {
+                Cart = cart
+            };
+            return View(cartSummaryViewModel);
         }
     }
 }

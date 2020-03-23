@@ -1,0 +1,51 @@
+﻿@model KaraCadir.Northwind.MvcWebUI.Models.CartSummaryViewModel
+
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List</title>
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ürün Adı</th>
+                <th>Stok Durumu</th>
+                <th> Sepetteki Adet</th>
+                <th>Birim Fiyatı</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Cart.CartLines)
+            {
+                <tr>
+                    <td>@item.Product.ProductName</td>
+                    <td><small>Bu üründen stokta @item.Product.UnitsInStock adet var.</small></td>
+                    <td>@item.Quantity</td>
+                    <td>@string.Format("{0:0.##}", item.Product.UnitPrice) ₺</td>
+                    <td><a class="btn btn-sm btn-danger" asp-controller="Cart" asp-action="Remove" asp-route-productId="@item.Product.ProductId"><span class="glyphicon glyphicon-remove"></span>Sepetten Çıkar</a></td>
+                    @*<td>
+                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    </td>*@
+                </tr>
+            }
+        <tr>
+            <td><a class="btn btn-info" asp-controller="Product" asp-action="Index">Mağazaya Geri Dön</a></td>
+            <td></td>
+            <td><h5><strong>Toplam: </strong></h5></td>
+            <td><h5><strong>@string.Format("{0:0.##}", Model.Cart.Total) ₺</strong></h5></td>
+            <td><a class="btn btn-primary" asp-controller="Cart" asp-action="Complete">Alışverişi Tamamla</a></td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
