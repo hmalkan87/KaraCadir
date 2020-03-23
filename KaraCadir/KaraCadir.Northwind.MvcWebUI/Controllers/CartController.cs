@@ -26,15 +26,24 @@ namespace KaraCadir.Northwind.MvcWebUI.Controllers
         {
             var productToBeAdded = _productService.GetById(productId);
 
-            var cart = _cartSessionService.GetCart();
+            if (productToBeAdded.UnitsInStock > 0)
+            {
+                var cart = _cartSessionService.GetCart();
 
-            _cartService.AddToCart(cart, productToBeAdded);
+                _cartService.AddToCart(cart, productToBeAdded);
 
-            _cartSessionService.SetCart(cart);
+                _cartSessionService.SetCart(cart);
 
-            TempData.Add("message", string.Format($"{productToBeAdded.ProductName} sepetinize eklendi"));
+                TempData.Add("message", $"{productToBeAdded.ProductName} sepetinize eklendi");
 
-            return RedirectToAction("Index", "Product");
+                return RedirectToAction("Index", "Product");
+            }
+            else
+            {
+                TempData.Add("message", $"{productToBeAdded.ProductName} stokta bulunmadığından sepete eklenemedi");
+                return RedirectToAction("Index", "Product");
+            }
+
         }
 
         public ActionResult List()
@@ -45,6 +54,15 @@ namespace KaraCadir.Northwind.MvcWebUI.Controllers
                 Cart = cart
             };
             return View(cartSummaryViewModel);
+        }
+
+        public ActionResult Remove(int productId)
+        {
+            var cart = _cartSessionService.GetCart();
+            TempData.Add("message", $"{cart.CartLines.FirstOrDefault(c => c.Product.ProductId == productId).Product.ProductName} sepetinizden çıkarıldı.");
+            _cartService.RemoveFromCart(cart, productId);
+            _cartSessionService.SetCart(cart);
+            return RedirectToAction("List");
         }
     }
 }
