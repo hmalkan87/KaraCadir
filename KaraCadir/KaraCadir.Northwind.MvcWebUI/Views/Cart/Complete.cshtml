@@ -6,32 +6,69 @@
 <h2>Adres Bilgileri</h2>
 
 <div class="row">
-    <form class="col-md-6 mt-3" asp-controller="Cart" asp-action="Complete" method="post">
+    <form id="completionForm" class="col-md-6 mt-3" asp-controller="Cart" asp-action="Complete" method="post">
         <div class="form-group">
             @*<label asp-for="ShippingDetails.FirstName"></label>*@
-            <input asp-for="ShippingDetails.FirstName" class="form-control" placeholder="Adınız" />
+            <input asp-for="ShippingDetails.FirstName" class="form-control" placeholder="Adınız" required />
             <span asp-validation-for="ShippingDetails.FirstName"></span>
         </div>
         <div class="form-group">
             @*<label asp-for="ShippingDetails.FirstName"></label>*@
-            <input asp-for="ShippingDetails.LastName" class="form-control" placeholder="Soyadınız" />
+            <input asp-for="ShippingDetails.LastName" class="form-control" placeholder="Soyadınız" required />
             <span asp-validation-for="ShippingDetails.LastName"></span>
         </div>
         <div class="form-group">
             @*<label asp-for="ShippingDetails.FirstName"></label>*@
-            <input asp-for="ShippingDetails.Email" class="form-control" placeholder="E-posta adresiniz" />
+            <input id="email" type="email" asp-for="ShippingDetails.Email" class="form-control" placeholder="E-posta adresiniz" required />
             <span asp-validation-for="ShippingDetails.Email"></span>
         </div>
         <div class="form-group">
             @*<label asp-for="ShippingDetails.FirstName"></label>*@
-            <input asp-for="ShippingDetails.City" class="form-control" placeholder="Şehir" />
+            <input asp-for="ShippingDetails.City" class="form-control" placeholder="Şehir" required />
             <span asp-validation-for="ShippingDetails.City"></span>
         </div>
         <div class="form-group">
             @*<label asp-for="ShippingDetails.FirstName"></label>*@
-            <input asp-for="ShippingDetails.Address" class="form-control" placeholder="Adres" />
+            <input asp-for="ShippingDetails.Address" class="form-control" placeholder="Adres" required />
             <span asp-validation-for="ShippingDetails.Address"></span>
         </div>
         <input type="submit" value="Devam Et" class="btn btn-sm btn-success" />
     </form>
+
+    @*<script>
+        $().ready(function () {
+                $("completionForm").validate(
+                    rules: {
+                    email: {
+                        required: true,
+                        minlength: 5
+                    }
+                }
+                            messages: {
+                    email: {
+                        required: "yaz"
+                    }
+                }
+                );
+            })</script>*@
+
+    @*<script>
+            $("#completionForm").validate()
+        </script>*@
+
+    @*<script>
+            $("completionForm").validate(
+                rules: {
+                email: {
+                    required: true,
+                    minlength: 5
+                }
+            }
+                            messages: {
+                email: {
+                    required: "yaz"
+                }
+            }
+            );
+        </script>*@
 </div>
