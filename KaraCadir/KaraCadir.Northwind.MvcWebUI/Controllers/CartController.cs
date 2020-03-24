@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Karacadir.Northwind.Entities.Concrete;
 using KaraCadir.Northwind.Business.Abstract;
 using KaraCadir.Northwind.MvcWebUI.Models;
 using KaraCadir.Northwind.MvcWebUI.Services;
@@ -63,6 +64,31 @@ namespace KaraCadir.Northwind.MvcWebUI.Controllers
             _cartService.RemoveFromCart(cart, productId);
             _cartSessionService.SetCart(cart);
             return RedirectToAction("List");
+        }
+
+        public ActionResult Complete()
+        {
+            var cart = _cartSessionService.GetCart();
+            if (cart.CartLines.Count > 0)
+            {
+                var shippingDetailsViewModel = new ShippingDetailsViewModel
+                {
+                    ShippingDetails = new ShippingDetails()
+                };
+                return View(shippingDetailsViewModel);
+            }
+            return RedirectToAction("List");
+        }
+
+        [HttpPost]
+        public ActionResult Complete(ShippingDetails shippingDetails)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            TempData.Add("message", $"Teşekkürler {shippingDetails.FirstName} {shippingDetails.LastName}! Siparişiniz alındı.");
+            return View();
         }
     }
 }
